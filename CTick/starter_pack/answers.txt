@@ -1,0 +1,26 @@
+client.c
+After providing two arguments for the host name and the port number the client program
+then creates a socket using TCP/IP protocol and connects to the socket to the host
+address. it then reads data in at a fixed size of BUF_SIZE from the connection and print
+the data to stdout.
+ERRORS:
+    1) on line 39: it should be BUFSIZE not BUFSIZE-1
+    2) on line 41: the order of arguments is wrong
+    3) on line 48: or the return statement should return 0 for successful completion.
+
+server.c
+This program starts a server application with a maximum connection and a buffer size of 1024 bytes.
+It takes two commandline arguments the port number to start the connection from and file to broadcast to anyone
+listening.
+It starts by creating a struct to handle internet addresses (sockaddr_in) named "server". The address
+family is set to AF_INET designated for connections for IPv4 addresses. It isn't bound to any specific
+IP because of INADDR_ANY. Finally, it is connected to the port we entered before.
+Then creates a streaming socket to connect to the same address family as before and binds it to the
+name server.
+It is set to listen to MAXOPEN (5) connections.
+Whenever it recieves a connection form a client it Buffers the file provided sending BUF_SIZE bytes
+at a time.
+ERRORS:
+    1) on line 19: The argument count should be 3
+    2) on line 49-70: The for(;;) loop was missing a '}' bracket
+    3) on line 62: the int w hadn't been intialised before it's use

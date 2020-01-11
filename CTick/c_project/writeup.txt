@@ -1,0 +1,16 @@
+- server.c
+This sets up a server with a maximum of 5 connections and a buffer size of 1024 bytes. 
+It accepts two parameters,  a server port and the name of the file to be transmitted.
+It first constructs a name in the "server" sockaddr_in struct and zeroes out the structure.
+This initialises the structure and mitigates issues related to non-initialised data.
+This socket is meant to be in the local machine, and is initialised to be a IPv4 socket, and listens
+to any IP address the computer has, not just localhost. It is a stream socket that communicates using TCP.
+A stream socket provides bidirectional, reliable, sequenced, and unduplicated flow of data.
+A socket is created with no name, and so a name has to be bound to it. The "server" name 
+is bound to the socket. We specify it to listen to only MAXOPEN number of connections.
+Then we accept a connection from client. Then, it reads bytes from the file, each time of size BUFSIZE,
+and sends it to the connected client. Then it resets the file pointer to the top of the file.
+
+- client.c
+Creates a socket that uses TCP protocol and IPv4 and connects that socket to the server address. It then
+reads data of size BUFSIZE from the connection, and prints it out to stdout.
