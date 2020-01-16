@@ -33,7 +33,7 @@ int main(int argc, char *argsv[]) {
 
   int len_file = getFileLength(fp);
 
-  unsigned char *buffer = (unsigned char *) malloc(sizeof(char) * len_file);
+  char *buffer = (char *) malloc(sizeof(char) * len_file);
   fread(buffer, sizeof(char), len_file, fp);
 
   getAllData(buffer, fw, len_file);

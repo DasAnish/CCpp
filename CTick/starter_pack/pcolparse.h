@@ -21,21 +21,21 @@
   extern "C" {
 #endif
 
-uint8_t getIHL(unsigned char *buffer, int i);
+uint8_t getIHL(char *buffer, int i);
 
-uint16_t getTotalLength(unsigned char *buffer, int i);
+uint16_t getTotalLength(char *buffer, int i);
 
-uint8_t getDataOffset(unsigned char *buffer, int i);
+uint8_t getDataOffset(char *buffer, int i);
 
-unsigned int getIPCount(unsigned char *buffer, int len);
+unsigned int getIPCount(char *buffer, int len);
 
-unsigned int getSourceIP(unsigned char *buffer, int i);
+unsigned int getSourceIP(char *buffer, int i);
 
-unsigned int getDestinationIP(unsigned char *buffer, int i);
+unsigned int getDestinationIP(char *buffer, int i);
 
-void getAllData(unsigned char *buffer, FILE *fw, int len_file);
+void getAllData(char *buffer, FILE *fw, int len_file);
 
-uint16_t getData(unsigned char *buffer, int i, FILE *fw);
+uint16_t getData(char *buffer, int i, FILE *fw);
 
 unsigned int getFileLength(FILE *fp);
 

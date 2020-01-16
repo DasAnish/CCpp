@@ -1,17 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9920800d-2cdd-4642-b394-2ad7bae90675" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CTick/Decode/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CTick/Decode/decode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CTick/Decode/decode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CTick/Decode/message1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CTick/Decode/message3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CTick/Decode/pcolparse.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CTick/Decode/pcolparse.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CTick/_1/.idea/starter_pack.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CTick/starter_pack/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/CTick/starter_pack/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CTick/starter_pack/client.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CTick/starter_pack/client1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CTick/starter_pack/ex2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CTick/starter_pack/extract.cc" beforeDir="false" afterPath="$PROJECT_DIR$/CTick/starter_pack/extract.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CTick/starter_pack/extract.o" beforeDir="false" afterPath="$PROJECT_DIR$/CTick/starter_pack/extract.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CTick/starter_pack/pcolparse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CTick/starter_pack/pcolparse.h" beforeDir="false" afterPath="$PROJECT_DIR$/CTick/starter_pack/pcolparse.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CTick/starter_pack/pcolparse.o" beforeDir="false" afterPath="$PROJECT_DIR$/CTick/starter_pack/pcolparse.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CTick/starter_pack/run" beforeDir="false" afterPath="$PROJECT_DIR$/CTick/starter_pack/run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CTick/starter_pack/server.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CTick/starter_pack/server1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CTick/starter_pack/summary.c" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WGrg4DHSYGhdHyaD6HYEIOOUEu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CTick/Decode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CTick/Decode" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CTick/Decode" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9920800d-2cdd-4642-b394-2ad7bae90675" name="Default Changelist" comment="" />
+      <created>1578786882171</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578786882171</updated>
+      <workItem from="1578786889776" duration="2390000" />
+      <workItem from="1579191766423" duration="331000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1578787135776</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578787135776</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578786889750">
+    <state x="558" y="149" width="860" height="806" key="CommitChangelistDialog2" timestamp="1578787135195">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578786889750" />
+    <state x="558" y="149" width="860" height="806" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1578787135195" />
+    <state x="802" y="277" width="372" height="550" key="RollbackChangesDialog" timestamp="1579192129943">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="802" y="277" width="372" height="550" key="RollbackChangesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579192129943" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1578787155945">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1578787155945" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1579191769904">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579191769904" />
   </component>
 </project>
